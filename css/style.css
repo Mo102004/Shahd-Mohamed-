@@ -4,6 +4,7 @@
     --footer-color: #2c4755;
 }
 * {
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +13,7 @@
 body {
     background-color: var(--title-name-color);
 }
-header {
+.header {
     background-color: rgba(44, 71, 85, 0.849);
     position: fixed;
     z-index: 999;
@@ -28,7 +29,7 @@ header {
             user-select: none;
         }    
     }
-    nav {
+    .nav{
         ul {
             list-style: none;
             li:first-child {
@@ -1993,7 +1994,7 @@ header {
         }
     
 }
-footer{
+.footer{
     height: 320px;
     width: 100%;
     text-align: center;
